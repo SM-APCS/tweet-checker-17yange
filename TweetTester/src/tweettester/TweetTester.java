@@ -16,11 +16,14 @@ public class TweetTester {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
         
         Scanner scan = new Scanner (System.in);
-         String tweet;
-         
+        String tweet;
+        System.out.println("Please enter your tweet: ");
+        tweet = scan.nextLine();
+        int i = tweet.length();
+        System.out.println("Your tweet is " + i + " characters long");
     }
-    
 }
