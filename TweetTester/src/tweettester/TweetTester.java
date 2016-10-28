@@ -21,9 +21,14 @@ public class TweetTester {
         
         Scanner scan = new Scanner (System.in);
         String tweet;
+        // initializes a string called tweet
         System.out.println("Please enter your tweet: ");
+        // prompts user for input
         tweet = scan.nextLine();
+        // reads everything from the prompt to when we hit enter to finalize the input into the code
         int i = tweet.length();
+        // counts the length of the string including symbols and spaces
         System.out.println("Your tweet is " + i + " characters long");
+        // prints the length of the string
     }
 }
